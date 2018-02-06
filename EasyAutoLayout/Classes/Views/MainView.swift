@@ -12,11 +12,21 @@ class MainView: UIView {
     
     // MARK: Properties
     
-    var view: UIView = {
+    var red: UIView = {
         
-        let view = UIView(frame: CGRect.zero)
+        let view = UIView(frame: .zero)
         
         view.backgroundColor = .red
+        
+        return view
+        
+    }()
+    
+    var blue: UIView = {
+       
+        let view = UIView(frame: .zero)
+        
+        view.backgroundColor = .blue
         
         return view
         
@@ -27,7 +37,7 @@ class MainView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.addSubview(view)
+        [red, blue].forEach { self.addSubview($0) }
         
     }
     
@@ -39,7 +49,13 @@ class MainView: UIView {
     
     override func layoutSubviews() {
         
-        view.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: self.bottomAnchor, trailing: self.trailingAnchor)
+        red.anchor(top: self.safeAreaLayoutGuide.topAnchor, leading: nil, bottom: nil, trailing: self.safeAreaLayoutGuide.trailingAnchor,
+                    padding: .init(top: 0, left: 0, bottom: 0, right: 12),
+                    size: .init(width: 100, height: 100))
+        
+        blue.anchor(top: red.bottomAnchor, leading: nil, bottom: nil, trailing: red.trailingAnchor,
+                    padding: .zero,
+                    size: .init(width: 100, height: 100))
         
     }
     
