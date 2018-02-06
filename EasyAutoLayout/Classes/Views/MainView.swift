@@ -61,13 +61,12 @@ class MainView: UIView {
         
         red.anchor(top: self.safeAreaLayoutGuide.topAnchor, leading: nil, bottom: nil, trailing: self.safeAreaLayoutGuide.trailingAnchor,
                     padding: .init(top: 0, left: 0, bottom: 0, right: 12),
-                    size: .init(width: 150, height: 0))
+                    size: .init(width: 100, height: 0))
         red.heightAnchor.constraint(equalTo: red.widthAnchor).isActive = true
         
         blue.anchor(top: red.bottomAnchor, leading: nil, bottom: nil, trailing: red.trailingAnchor,
                     padding: .init(top: 12, left: 0, bottom: 0, right: 0))
-        blue.widthAnchor.constraint(equalTo: red.widthAnchor).isActive = true
-        blue.heightAnchor.constraint(equalTo: red.widthAnchor).isActive = true
+        blue.anchorSize(to: red)
         
         yellow.anchor(top: red.topAnchor, leading: self.safeAreaLayoutGuide.leadingAnchor, bottom: blue.bottomAnchor, trailing: red.leadingAnchor,
                       padding: .init(top: 0, left: 12, bottom: 0, right: 12))
