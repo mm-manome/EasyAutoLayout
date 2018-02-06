@@ -9,18 +9,14 @@
 /* Begin PBXBuildFile section */
 		68BFFF6A2029F5EB00BA3AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFFF692029F5EB00BA3AA2 /* AppDelegate.swift */; };
 		68BFFF6C2029F5EB00BA3AA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFFF6B2029F5EB00BA3AA2 /* ViewController.swift */; };
-		68BFFF6F2029F5EB00BA3AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BFFF6D2029F5EB00BA3AA2 /* Main.storyboard */; };
 		68BFFF712029F5EB00BA3AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BFFF702029F5EB00BA3AA2 /* Assets.xcassets */; };
-		68BFFF742029F5EB00BA3AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BFFF722029F5EB00BA3AA2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68BFFF662029F5EB00BA3AA2 /* EasyAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BFFF692029F5EB00BA3AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68BFFF6B2029F5EB00BA3AA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		68BFFF6E2029F5EB00BA3AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68BFFF702029F5EB00BA3AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		68BFFF732029F5EB00BA3AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68BFFF752029F5EB00BA3AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,14 +50,68 @@
 		68BFFF682029F5EB00BA3AA2 /* EasyAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				68BFFF7B2029F7AF00BA3AA2 /* Resources */,
+				68BFFF7C2029F7D000BA3AA2 /* Classes */,
 				68BFFF692029F5EB00BA3AA2 /* AppDelegate.swift */,
-				68BFFF6B2029F5EB00BA3AA2 /* ViewController.swift */,
-				68BFFF6D2029F5EB00BA3AA2 /* Main.storyboard */,
-				68BFFF702029F5EB00BA3AA2 /* Assets.xcassets */,
-				68BFFF722029F5EB00BA3AA2 /* LaunchScreen.storyboard */,
 				68BFFF752029F5EB00BA3AA2 /* Info.plist */,
 			);
 			path = EasyAutoLayout;
+			sourceTree = "<group>";
+		};
+		68BFFF7B2029F7AF00BA3AA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68BFFF702029F5EB00BA3AA2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68BFFF7C2029F7D000BA3AA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68BFFF812029F80F00BA3AA2 /* Views */,
+				68BFFF802029F80500BA3AA2 /* Controllers */,
+				68BFFF7F2029F7FD00BA3AA2 /* Models */,
+				68BFFF7E2029F7E800BA3AA2 /* Utilities */,
+				68BFFF7D2029F7E000BA3AA2 /* Extentions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68BFFF7D2029F7E000BA3AA2 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		68BFFF7E2029F7E800BA3AA2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		68BFFF7F2029F7FD00BA3AA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68BFFF802029F80500BA3AA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68BFFF6B2029F5EB00BA3AA2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68BFFF812029F80F00BA3AA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BFFF742029F5EB00BA3AA2 /* LaunchScreen.storyboard in Resources */,
 				68BFFF712029F5EB00BA3AA2 /* Assets.xcassets in Resources */,
-				68BFFF6F2029F5EB00BA3AA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,25 +190,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		68BFFF6D2029F5EB00BA3AA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68BFFF6E2029F5EB00BA3AA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		68BFFF722029F5EB00BA3AA2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68BFFF732029F5EB00BA3AA2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		68BFFF762029F5EB00BA3AA2 /* Debug */ = {
@@ -211,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,11 +306,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = EasyAutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minout.net.EasyAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +322,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = EasyAutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minout.net.EasyAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
