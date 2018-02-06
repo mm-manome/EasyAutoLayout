@@ -16,6 +16,8 @@ class MainViewController: UIViewController {
        
         let view = MainView(frame: UIScreen.main.bounds)
         
+        view.backgroundColor = .white
+        
         return view
         
     }()
