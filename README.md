@@ -1,4 +1,4 @@
-# EasyAutoLayout
+# EasyLayout
 
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
 )](https://developer.apple.com/iphone/index.action)
@@ -8,7 +8,7 @@
 )](http://mit-license.org)
 [![Twitter](https://img.shields.io/badge/twitter-@mm_manome-blue.svg?style=flat)](https://twitter.com/mm_manome)
 
-AutoLayoutの拡張を実装
+ViewのLayout制約を追加するための拡張を実装
 
 ## Author
 **Masataka Miyoshi**
