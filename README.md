@@ -13,5 +13,5 @@ ViewのLayout制約を追加するための拡張を実装
 ## Author
 **Masataka Miyoshi**
 
-- BLOG: [ナノカモシレナイ](http://minout.net/)
-- CONTACT: [Twitter](https://twitter.com/mm_manome) / [Facebook](https://www.facebook.com/mmmanome) / [Wantedly](https://www.wantedly.com/users/17788878)
+- BLOG: [MSTK.JP](http://mstk.jp/)
+- CONTACT: [Twitter](https://twitter.com/mstkmys) / [Facebook](https://www.facebook.com/mstkmys) / [Wantedly](https://www.wantedly.com/users/17788878)
